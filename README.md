@@ -12,7 +12,7 @@ In this project, we investigate:
  - Plasma Biomarker Analysis
 - Compared biomarker distributions between OA patients and controls using independent samples t-tests and ANCOVA (adjusting for age, sex, and education).
 - fMRI Data Processing
-- Structural MRI preprocessing: T1-weighted images processed with FreeSurfer for cortical reconstruction and volumetric segmentation.
+- Structural MRI preprocessing: T1-weighted images processed with FMRIB Software Tool (FSL) for cortical reconstruction and volumetric segmentation.
 - Functional MRI preprocessing: Motion correction, slice-timing correction, and spatial normalization (MNI space), Noise removal using CompCor and head motion regressors, Band-pass filtering to retain 0.01–0.1 Hz fluctuations, Spatial smoothing with a 6 mm FWHM Gaussian kernel.
 - Seed-based functional connectivity: bilateral hippocampus seeds extracted.
 - Statistical inference: Two-sample t-tests (OA vs. control) on seed-to-voxel maps, Cluster-level correction with FDR (q < 0.05).
