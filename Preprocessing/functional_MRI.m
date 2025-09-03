@@ -1,4 +1,4 @@
-unction [ok,matlabbatch,outputfiles,job_id]=conn_setup_preproc(STEPS,varargin)
+function [ok,matlabbatch,outputfiles,job_id]=conn_setup_preproc(STEPS,varargin)
 % CONN_SETUP_PREPROC
 % Runs individual preprocessing steps
 %
